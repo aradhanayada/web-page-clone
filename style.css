@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.contener-1-0 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.contaner {
+  height: 28rem;
+  background-image: url("./background.png");
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.header {
+  width: 100vw;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px 0px 100px;
+}
+.ankers {
+  padding: 15px;
+}
+.ankers a {
+ padding-left: 10px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bolder;
+}
+.button {
+  display: flex;
+  /* gap: 5px; */
+  padding: 10px 5px 15px 0px;
+}
+.img{
+  padding: 5px;
+}
+.butto button {
+  padding: 8px 15px 8px 15px;
+  color: white;
+  border-radius: 10px;
+  background-color: #ed017f;
+  border: none;
+  font-weight: bolder;
+}
+.image-2{
+  float: right;
+}
+.image-2 img{
+  width: auto;
+  height:580px;
+}
+.button-1 {
+  position: absolute;
+  left: 46%;
+  top: 10%;
+}
+.button-1 button {
+  display: flex;
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+}
+.button-1 p {
+  padding: 5px;
+  color: gray;
+  font-weight: bolder;
+  font-size: larger;
+}
+.button-2 {
+  position: absolute;
+  left: 80%;
+  top: 25%;
+}
+.button-2 button {
+  display: flex;
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 15px 10px 15px;
+}
+.button-2 p {
+  padding: 5px;
+  color: gray;
+  font-weight: bolder;
+  font-size: larger;
+}
+.contan-detail {
+  /* border: 1px solid black; */
+  width: 35em;
+  margin: 150px 0px 0px 100px;
+}
+.contant h1 {
+  font-size: 50px;
+}
+.contant p {
+  font-size: 20px;
+  color: gray;
+}
+.buttons-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 10px;
+  position: relative;
+  /* padding: 20px 90px 0px 100px; */
+}
+.but-1 button {
+  padding: 8px 15px 8px 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ed017f;
+  border: 1px solid #ed017f;
+  font-weight: bolder;
+  width: 138px;
+}
+.but-2 button {
+  padding: 8px 15px 8px 15px;
+  color: #ed017f;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ed017f;
+  font-weight: bolder;
+  width: 180px;
+}
+.contact-detail {
+  display: flex;
+  align-content: center;
+  margin-top: 120px;
+
+  /* margin:100px 0px 0px 100px; */
+}
+.contact-detail p {
+  color: gray;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.contact-detail img {
+  width: 25px;
+  height: 25px;
+  margin-left:15px;
+}
